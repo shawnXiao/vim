@@ -55,6 +55,8 @@ nmap <F9> :call handy#ToggleSnipple()<CR>
 
 " 更方便的 <Esc>
 imap <silent> ii <esc>:w<cr>
+map <silent> <esc><esc> :close<cr>
+map <silent> <tab><tab> <C-w>w
 
 " 打开一个临时的缓冲区随便记东西
 nmap <Leader>S :Scratch<cr>
