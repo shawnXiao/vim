@@ -25,6 +25,8 @@ set expandtab
 
 " 高亮括号对
 set showmatch
+" 显示行号
+set nu
 " 自动缩进
 set autoindent
 " 高亮搜索
