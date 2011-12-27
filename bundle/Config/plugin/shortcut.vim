@@ -57,6 +57,7 @@ nmap <F9> :call handy#ToggleSnipple()<CR>
 imap <silent> ii <esc>:w<cr>
 map <silent> <esc><esc> :close<cr>
 map <silent> <tab><tab> <C-w>w
+map <silent> <Leader><tab> :%s /\t/    /g<cr>
 
 " 打开一个临时的缓冲区随便记东西
 nmap <Leader>S :Scratch<cr>
@@ -78,3 +79,7 @@ nmap t` /[A-Z]<cr>
 
 " 更新 FuzzyFinder 的 cache
 nmap <silent> <leader>fr :FufRenewCache<cr>
+
+" 自定义wiki -->> html 快捷键
+map <Leader><F4> :VimwikiAll2HTML<CR>
+map <F4> :Vimwiki2HTML<CR>

@@ -69,4 +69,4 @@
 	url = https://github.com/vim-scripts/vimwiki.git
 [submodule "bundle/jsbeautify"]
 	path = bundle/jsbeautify
-	url = git://github.com/vim-scripts/jsbeautify.git
+	url = git@github.com:justzero/jsbeautify.git
