@@ -73,3 +73,6 @@
 [submodule "bundle/underwater"]
 	path = bundle/underwater
 	url = https://github.com/imissmyjuno/Underwater-VIM-theme.git
+[submodule "bundle/vim-less"]
+	path = bundle/vim-less
+	url = https://github.com/groenewege/vim-less.git
