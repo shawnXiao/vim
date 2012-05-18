@@ -76,3 +76,6 @@
 [submodule "bundle/vim-less"]
 	path = bundle/vim-less
 	url = https://github.com/groenewege/vim-less.git
+[submodule "bundle/vim-indent"]
+	path = bundle/vim-indent
+	url = https://github.com/nathanaelkane/vim-indent-guides.git
