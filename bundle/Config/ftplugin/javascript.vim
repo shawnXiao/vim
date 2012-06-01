@@ -5,4 +5,4 @@ let javascript_enable_domhtmlcss=1
 set foldmethod=marker
 "set foldexpr=getline(v:lnum-1)=~'^\\\\\\$'&&getline(v:lnum)=~'\\S'?'>1':1
 
-set cc=81
+"set cc=81
