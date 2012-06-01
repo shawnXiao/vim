@@ -24,6 +24,7 @@ function! handy#ToggleSnipple()
         edit #
         bdelete #
     else
-        edit `=expand("~/.vim/bundle/customSnippet/snippets/" . &ft . ".snippets")`
+        let ftdir = expand("~/vimfiles/bundle/customSnippet/snippets/" . &ft . ".snippets")
+        silent execute 'edit ' . ftdir
     endif
 endfunction
