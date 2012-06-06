@@ -6,3 +6,7 @@ set foldmethod=marker
 "set foldexpr=getline(v:lnum-1)=~'^\\\\\\$'&&getline(v:lnum)=~'\\S'?'>1':1
 
 "set cc=81
+
+" 添加了leader+R用python执行当前文件
+nmap <leader>r :!clear && node %<CR>
+
