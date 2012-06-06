@@ -11,3 +11,6 @@ endif
 if (maparg('u') != '')
     unmap <buffer><silent> u
 endif
+
+" 修改了报警颜色
+highlight JSLintError ctermbg=Black ctermfg=Red guibg=#592929
