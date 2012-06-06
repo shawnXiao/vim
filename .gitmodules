@@ -73,3 +73,6 @@
 [submodule "bundle/vim-indent"]
 	path = bundle/vim-indent
 	url = https://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "bundle/vim-jslint"]
+	path = bundle/vim-jslint
+	url = https://github.com/justzero/jslint.vim.git
