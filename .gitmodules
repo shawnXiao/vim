@@ -63,7 +63,7 @@
 	url = https://github.com/vim-scripts/vimwiki.git
 [submodule "bundle/jsbeautify"]
 	path = bundle/jsbeautify
-	url = git@github.com:justzero/jsbeautify.git
+	url = https://github.com/justzero/jsbeautify.git
 [submodule "bundle/underwater"]
 	path = bundle/underwater
 	url = https://github.com/imissmyjuno/Underwater-VIM-theme.git
