@@ -58,7 +58,6 @@ set laststatus=2
 if v:version >= 703
   set undodir=$HOME/.vimundodir
   set undofile
-  set cc=81
 endif
 
 " 打开文件时跳到上次编辑的位置
